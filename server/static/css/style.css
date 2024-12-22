@@ -1,0 +1,79 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: #0077cc;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin: 0.5rem 0 0;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Video Container */
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#video-feed {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border: 3px solid #0077cc;
+  border-radius: 8px;
+}
+
+/* Annotations Container */
+.annotations-container {
+  text-align: left;
+}
+
+#annotations {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+#annotations p {
+  margin: 10px 0;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
